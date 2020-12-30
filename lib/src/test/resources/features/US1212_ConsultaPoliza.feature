@@ -10,3 +10,10 @@ Feature: Poder realizar Fraccionamiento para la línea de Productos Vida
     And realizo el fraccionamiento del producto Flexivida
         
     Then el numero de fraccionamieno
+    
+      ###DATOS###@DataPrueba|1@01-Escenario1
+    Examples: 
+      | 0 | descripcion | nombre               | valorEsperado |
+      | 1 | YARIS       | MODELOS_DE_VEHICULOS |        403234 |
+      | 2 | YARIS       | MODELOS_DE_VEHICULOS |        403234 |
+      | 3 | YARIS       | MODELOS_DE_VEHICULOS |        403234 |
