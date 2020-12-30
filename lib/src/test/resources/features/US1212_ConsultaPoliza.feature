@@ -16,3 +16,4 @@ Feature: Poder realizar Fraccionamiento para la línea de Productos Vida
       | 0 | descripcion | nombre               | valorEsperado |
       | 1 | YARIS       | MODELOS_DE_VEHICULOS |        403234 |
       | 2 | YARIS       | MODELOS_DE_VEHICULOS |        403234 |
+test 
